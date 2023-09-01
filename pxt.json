@@ -1,0 +1,34 @@
+{
+    "name": "gpbl2023-yamamoto-final",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Environment-and-Science-IoT": "pkg:Environment-and-Science-IoT.json",
+        "servo": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py",
+        "Environment-and-Science-IoT.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.17",
+        "tag": "v6.0.17",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/8f2212096e30017f6c9c561e3241df44b3acd755",
+        "target": "6.0.17",
+        "pxt": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
